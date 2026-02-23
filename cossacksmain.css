@@ -1,0 +1,58 @@
+body {
+    width: 1000px;
+    margin-top: 0 auto;
+    padding: 100px;
+
+    font-family: serif;
+
+    background-color: #222831;
+
+    font: 16px/24px;
+    color: #eee;
+}
+
+h1,
+h3,
+h4 {
+    color: #fd7014;
+}
+
+
+
+dl {
+    padding: 30px;
+    border-radius: 10px;
+
+    background: #393e46;
+}
+
+dt {
+    color: #fd7014;
+    font-weight: 700;
+}
+
+.break-inside {
+    break-inside: avoid;
+}
+
+article {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    background-color: #364153;
+}
+
+section {
+    column-count: 2;
+    display: flex;
+}
+
+.span-text {
+    column-span: all;
+    width: 50%;
+}
+
+section li {
+    list-style-type: circle;
+}
